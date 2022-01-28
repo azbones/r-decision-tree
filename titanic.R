@@ -10,17 +10,17 @@ library(caret)
 titanic <- read.csv("C:/Users/colli/Downloads/titanic.csv")
 
 ## 75% sample for training data
-smp_size <- floor(0.75 * nrow(titanic))
+sample_size <- floor(0.75 * nrow(titanic))
 
 ## Use seed to make models reproduceable
 set.seed(123)
 
 ## Determine number of rows to sample
-train_ind <- sample(seq_len(nrow(titanic)), size = smp_size)
+train_split <- sample(seq_len(nrow(titanic)), size = sample_size)
 
 ## Split the data into 75% training and 25% testing
-train <- titanic[train_ind, ]
-test <- titanic[-train_ind, ]
+train <- titanic[train_split, ]
+test <- titanic[-train_split, ]
 
 
 ## Build a decision tree model
