@@ -1,4 +1,5 @@
 library(rpart)
+library(rattle)
 library(rpart.plot)
 library(RColorBrewer)
 library(caret)
