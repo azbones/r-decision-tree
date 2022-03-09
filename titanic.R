@@ -1,8 +1,6 @@
-library(rattle)
 library(rpart)
 library(rpart.plot)
 library(RColorBrewer)
-library(titanic)
 library(caret)
 
 ## Get the data from a csv file
