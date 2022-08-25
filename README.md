@@ -12,6 +12,8 @@ Once you launch the notebook, you will have access to a complete R runtime envir
 
 Each codeblock is editable and runnable. To run a given code block, click into the block and use shift-return to run the code in that block. The image below is an example of a codeblock. The notebook also has other features in the menu at the top of the page.
 
+To complete the entire notebook, you must run each code block in order. The first code block, for example, imports the R libraries that will be used to build the model. Click into this block and run the code with shift-return.
+
 <img src="images/codeblock.png">
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/azbones/r-decision-tree/HEAD?urlpath=nteract/tree/TitanicNotebook.ipynb)
