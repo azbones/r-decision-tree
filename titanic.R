@@ -6,7 +6,7 @@ library(caret)
 
 ## Get the data from a csv file
 
-titanic <- read.csv("C:/Users/colli/Downloads/titanic.csv")
+titanic <- read.csv("titanic.csv")
 
 ## 75% sample for training data
 sample_size <- floor(0.75 * nrow(titanic))
