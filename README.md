@@ -16,4 +16,4 @@ To complete the entire notebook, you must run each code block in order. The firs
 
 <img src="images/codeblock.png">
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/azbones/r-decision-tree/HEAD?urlpath=nteract/tree/TitanicNotebook.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/azbones/r-decision-tree/HEAD?labpath=TitanicNotebook.ipynb)
